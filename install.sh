@@ -26,6 +26,7 @@ cp -r .config ${HOME}
 cp .bashrc ${HOME}
 cp .bash_aliases ${HOME}
 cp .bash_profile ${HOME}
+cp .pam_environment ${HOME}
 
 # Prep Ansible
 sudo apt-add-repository --yes --update ppa:ansible/ansible
