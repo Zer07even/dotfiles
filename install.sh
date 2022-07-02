@@ -46,7 +46,7 @@ sudo apt autoremove -y
 # Get Ansible Playbook
 cd ..
 git clone --depth 1 https://github.com/Zer07even/ansible-laptop
-cd ansible-laptop
+
 echo " "
 echo " "
-echo "run 'cd ../ansible-laptop && ansible-galaxy install -r requirements.yml && ansible-playbook playbook.yml -K' to install software"
+echo "run 'cd ansible-galaxy install -r requirements.yml && ansible-playbook playbook.yml -K' to install software"
