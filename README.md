@@ -8,8 +8,14 @@ Add or delete programs in `install.sh` and `scripts/programs/` to modify your in
 
 ## Usage
 
+If you already have git installed and have cloned the repo:
 ```sh
 ./install.sh
+```
+
+or, if you dont yet have git installed and want a quick 1 command approach:
+```sh
+wget -O - https://raw.githubusercontent.com/Zer07even/dotfiles/master/install.sh|bash
 ```
 
 ## Random Helpful Stuff (TM)
