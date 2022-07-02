@@ -15,3 +15,6 @@ save: save-dconf save-vsce ## Update dconf and vsc extensions files
 update: ## Do apt upgrade and autoremove
 	sudo apt update && sudo apt upgrade -y
 	sudo apt autoremove -y
+
+bringalltoroot: ## Bring all nested files to this root folder
+	find . -mindepth 2 -type f -print -exec mv {} . \;
